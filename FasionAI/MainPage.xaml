@@ -1,0 +1,28 @@
+﻿<Page
+    x:Class="FasionAI.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:FasionAI"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid RequestedTheme="Light">
+        <TextBlock HorizontalAlignment="Left" Height="39" Margin="73,54,0,0" Text="Welcome to AI Fashion Designer" VerticalAlignment="Top" Width="324" FontSize="20" RequestedTheme="Light"/>
+        <Button x:Name="Button1" HorizontalAlignment="Left" Height="487" Margin="73,163,0,0" VerticalAlignment="Top" Width="376" RenderTransformOrigin="1,0.5" Click="UploadPic" RequestedTheme="Light" Visibility="Visible" >
+            <TextBlock HorizontalAlignment="Center" Text="+" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="100" Margin="0,-26,0,0"/>
+        </Button>
+        <Image x:Name="uploadedImage" HorizontalAlignment="Left" Height="487" VerticalAlignment="Top" Width="376" Margin="73,163,0,0"/>
+
+        <Button x:Name="Button2" HorizontalAlignment="Left" Height="487" Margin="527,163,0,0" VerticalAlignment="Top" Width="376" RenderTransformOrigin="1,0.5" Click="UploadPic2" RequestedTheme="Light" >
+            <TextBlock HorizontalAlignment="Center" Text="+" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="100" Margin="0,-26,0,0"/>
+        </Button>
+        <Image x:Name="uploadedImage2" HorizontalAlignment="Left" Height="487" VerticalAlignment="Top" Width="376" Margin="527,163,0,0" Visibility="Visible"/>
+
+        <Button Content="Reset" HorizontalAlignment="Left" Height="45" Margin="73,769,0,0" VerticalAlignment="Top" Width="171" Click="Reset"/>
+        <Button x:Name="MixBtn" Content="Mix" HorizontalAlignment="Left" Margin="983,402,0,0" VerticalAlignment="Top" Height="41" Width="104"/>
+
+
+    </Grid>
+</Page>
