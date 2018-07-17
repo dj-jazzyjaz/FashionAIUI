@@ -1,31 +1,5 @@
-﻿using System;
-using System.Collections.Generic;
-using System.IO;
-using System.Linq;
-using System.Runtime.InteropServices.WindowsRuntime;
-using Windows.Foundation;
-using Windows.Foundation.Collections;
-using Windows.UI.Xaml;
+﻿using Windows.UI.Xaml;
 using Windows.UI.Xaml.Controls;
-using Windows.UI.Xaml.Controls.Primitives;
-using Windows.UI.Xaml.Data;
-using Windows.UI.Xaml.Input;
-using Windows.UI.Xaml.Media;
-using Windows.UI.Xaml.Navigation;
-using System;
-using System.Collections.Generic;
-using System.IO;
-using System.Linq;
-using System.Runtime.InteropServices.WindowsRuntime;
-using Windows.Foundation;
-using Windows.Foundation.Collections;
-using Windows.UI.Xaml;
-using Windows.UI.Xaml.Controls;
-using Windows.UI.Xaml.Controls.Primitives;
-using Windows.UI.Xaml.Data;
-using Windows.UI.Xaml.Input;
-using Windows.UI.Xaml.Media;
-using Windows.UI.Xaml.Navigation;
 using Windows.UI.Xaml.Media.Imaging;
 
 // The Blank Page item template is documented at https://go.microsoft.com/fwlink/?LinkId=402352&clcid=0x409
@@ -50,20 +24,6 @@ namespace FasionAI
         }
 
       
-        private async void PlusButton1_Click(object sender, RoutedEventArgs e)
-        {
-            // Call app specific code to subscribe to the service. For example:
-            ContentDialog subscribeDialog = new ContentDialog
-            {
-                Title = "Subscribe to App Service?",
-                Content = "Listen, watch, and play in high definition for only $9.99/month. Free to try, cancel anytime.",
-                CloseButtonText = "Not Now",
-                PrimaryButtonText = "Subscribe",
-                SecondaryButtonText = "Try it"
-            };
-
-            ContentDialogResult result = await subscribeDialog.ShowAsync();
-        }
 
         private async void UploadPic(object sender, RoutedEventArgs e)
         {
