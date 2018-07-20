@@ -22,6 +22,8 @@
 
         <Button Content="Reset" HorizontalAlignment="Left" Height="45" Margin="73,769,0,0" VerticalAlignment="Top" Width="171" Click="Reset"/>
         <Button x:Name="MixBtn" Content="Mix" HorizontalAlignment="Left" Margin="983,402,0,0" VerticalAlignment="Top" Height="41" Width="104"/>
+        <TextBlock HorizontalAlignment="Left" Height="26" Margin="73,139,0,0" Text="Primary Clothing Piece" TextWrapping="Wrap" VerticalAlignment="Top" Width="334"/>
+        <TextBlock HorizontalAlignment="Left" Height="26" Margin="527,133,0,0" Text="Pattern/Color" TextWrapping="Wrap" VerticalAlignment="Top" Width="334"/>
 
     </Grid>
 </Page>
